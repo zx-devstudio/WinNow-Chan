@@ -2,7 +2,7 @@
 $branch = "main"
 
 Write-Host "Generating manifest..."
-Start-Process -NoNewWindow -Wait -FilePath ".\ManifestGenerate.exe" -ArgumentList "https://raw.githubusercontent.com/zx-devstudio/WinNow/main/"
+Start-Process -NoNewWindow -Wait -FilePath ".\ManifestGenerate.exe" -ArgumentList "https://raw.githubusercontent.com/zx-devstudio/WinNow-Chan/main/"
 
 Write-Host "Uploading files to GitHub..."
 git add .
